@@ -1,0 +1,52 @@
+.flex-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.social-icon{
+    text-align: center;
+}
+
+.social-icon ul{
+    margin: 0;
+    padding: 0%;
+
+}
+.social-icon ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    background: darkblue;
+    /* clour; white; */
+    line-height: 60px;
+    border-radius: 20px 0px;
+    transition: 0.7s;
+    
+}
+
+.social-icon ul li:hover {
+
+    background: rgb(247, 14, 14);
+    border-radius: 0px 20px;
+    transition: 0.7s;
+}
+
+.social-icon ul li a{
+     
+}
+
+.social-icon ul li a i{
+    color: white;
+    font-size: 20px;
+}
+
+.social-icon ul li:hover .fa{
+    color: yellowgreen;
+}
